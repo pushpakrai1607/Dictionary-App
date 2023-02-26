@@ -17,6 +17,7 @@ min-height: 100vh;
 margin: 0 auto;
 }
 
+
 nav{
     background: #553C9A;
 color: #fff;
@@ -40,15 +41,15 @@ h2{
     align-items: center;
     border: 1px solid #ddd;
     margin-top: 28px;
-
 }
 input{
     border: none;
     padding: 10px;
     font-size: 16px;
     outline: none;
-color:red;
-    min-width: 400px;
+    color:red;
+
+    min-width: 500px;
 }
 
 button{
@@ -97,4 +98,32 @@ font-weight: bold;
 display: flex;
 
 justify-content: center;
+}
+
+@media (max-width: 498px){
+    .container{
+        width: 320px;
+    }
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    input{
+        min-width: 210px;
+    }
+    button{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+h2{
+    text-align: center;
+    font-size: 23px;
+margin-bottom: 20px;
+}
+
+.footer{
+    font-size: 17px;    margin-top: 360px;    margin-bottom: 5px;
+}
+
 }
