@@ -1,7 +1,7 @@
 # dictionary-app
 English dictionary app using JavaScript
 
-#### Demo: https://codersgyan.github.io/dictionary-app/
+#### Demo: https://dictionary-app-dusky.vercel.app/
 
 PS. You need to add api key to get it work.
 
